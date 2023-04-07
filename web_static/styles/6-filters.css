@@ -1,22 +1,26 @@
+.filters{
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    margin: 0;
+    padding: 0;
+}
+
 .location {
     height: 100%;
     width:25%;
     border-right:1px solid #DDDDDD;
-    display: inline-block;
     text-align: center;
+    float: left;
     
 }
 .amenities{
     height: 100%;
     width:25%;
     border-right:1px solid #DDDDDD; 
-    display: inline-block;
-}
-.filters{
-    height: 70px;
-    width: 100%;
-    border: 1px solid #DDDDDD;
-    border-radius: 4px;
+    float:left;
+    text-align: center;
 }
 button{
     font-size: 18px;
@@ -25,10 +29,14 @@ button{
     height: 48px;
     width:20%;
     border-radius: 4px;
-    float :right;
+    float:right;
     margin: 11px 30px;
-
+    
+    
+    
 }
+
+
 button:hover{
     opacity: 90%;
 }
